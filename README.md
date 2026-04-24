@@ -10,7 +10,7 @@
 
 Since 2022, I have designed and built 20+ TypeScript applications spanning three distinct product lines, as solo founder of **PeopleAnalyst** (consulting since 2012). What began as a niche consulting practice has evolved into an AI-native product ecosystem applying systematic decision science to progressively broader domains — from enterprise HR analytics to scholarly research infrastructure, from intentional baby naming to contemplative visual art, from fantasy football intelligence to memoir composition.
 
-The ecosystem is architected as a **hub-and-spoke pattern**: a central registry with spoke applications that integrate via shared data, identity, and UI substrate. Cross-cutting concerns — PII anonymization, metric calculation engines, survey delivery, writer-retrieval for AI-assisted composition — live as reusable platform services consumed by multiple verticals.
+The ecosystem is architected as a **hub-and-spoke pattern**: a central registry with spoke applications that integrate via shared data, identity, and UI substrate. Cross-cutting concerns — PII anonymization, metric calculation engines, survey delivery, human-integrated data derived self-improving feedback loops (recursive algoritms), probabilistic programming, microservices, APIs, writer-retrieval for AI-assisted composition — live as reusable platform services consumed by multiple verticals.
 
 ---
 
@@ -68,7 +68,7 @@ An intentional baby-naming platform. 47,000+ names with 145+ years of SSA popula
 
 Stack: Next.js 16 + Supabase + Vercel + Tailwind, Anthropic API for naming intelligence + spike attribution, FAL for illustration generation, OMDB/TMDB for cultural-event correlation, WhoisFreaks for domain feasibility.
 
-### Gridiron Platform · `MFL-GM-Consol` · in development
+### Fourth & 2 · Gridiron Platform · `MFL-GM-Consol` · in development
 
 A fantasy-football intelligence platform applying systematic decision-support to a high-volume-decision consumer domain. Monorepo: Next.js web app (Team Command Center, Waiver Command Center, League Intelligence Dashboard, Weekly Strategy Engine, Draft Day, Rankings) + Python/FastAPI analytics API (**PRISM, CAMS, rankings, decisions engines**) + gm-console FastAPI proxy + shared TypeScript packages (engine, adapters, 16 analytics card types, typed HTTP client). Side games (The Pick, The Matchup, Survivor) shipped as playable with per-device localStorage.
 
